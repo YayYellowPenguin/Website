@@ -1,0 +1,42 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-bar{
+	list-style: none;
+	font-size: 40px;
+}
+.nav-bar li{
+	display: inline-block;
+	padding: 0px 80px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+	border-width: 0px 0px 8px 0px;
+	border-style: solid;
+}
+
+.logo{
+	height: 120px;
+	width: 120px;
+}
+
+.nav-bar a{
+	text-decoration: none;
+}
+
+.title{
+	margin-top: 40px;
+	text-align: center;
+}
