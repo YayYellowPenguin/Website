@@ -3,21 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Home</title>
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
 		<img src="../assets/V2 PNG/websitelogo.png" class="logo" alt="logo">
 		<nav>
 			<ul class="nav-bar">
-				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html" class="active">Home</a></li>
 				<li><a href="services.html">Services</a></li>
                 <li><a href="about.html">About</a></li>
-				<li><a href="contact.html" class="active">Contact</a></li>
+				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
-    <h1>d</h1>
+	<form action="https://formspree.io/f/xljeryyj" method="POST">
+		<label>
+			Name
+			<input type="text">
+		</label>
+		<label>
+			Email Adress
+			<input type="email">
+		</label>
+		<label>
+			Leave a message
+			<textarea></textarea>
+		</label>
+		<button type="submit">Submit</button>
+	</form>
 </body>
+<footer>
+	<p>&copy; 2026 DLUX Media. All rights reserved.</p>
+</footer>
 </html>
